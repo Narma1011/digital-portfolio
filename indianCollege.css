@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+/* nav css */
+
+
+.navbar{
+    z-index: 10;
+    background-color: rgb(212, 237, 229);
+    box-shadow: rgba(225, 2, 2, 0.5);
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* home css */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 237, 229);
+}
+
+.content {
+    padding: 0px 50px;
+}
+
+/* ..........text content........... */
+
+
+
+.content1 h1 {
+    font-size: 50px;
+    margin: 10px 0px;
+    padding-bottom: 30px;
+}
+
+.content1 h2 {
+    margin-bottom: 20px;
+    font-size: 44px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content1 h4 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+@media screen and (max-width:675px){
+
+    .content {
+        margin-top: 20px;
+        padding: 0px 40px;
+    }
+    .content1 h1 {
+        font-size: 13px;
+    }
+
+    .content1 h2 {
+        margin-bottom: 15px;
+         font-size: 45px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .content1 h4 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+}
+
+/* ..........image content........... */
+.image {
+    padding: 30px 25px;
+   
+}
+.img{
+    border-radius: 20px;
+    box-shadow: -10px -10px 10px gray
+}
+
+
+/* text and caruosal css */
+
+
+.cont {
+    padding: 20px 10px;
+}
+
+.cont h1 {
+    margin: 8px 50px;
+    padding: 8px 50px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.cont h4 {
+    margin: 8px 40px;
+    padding: 8px 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+@media screen and (max-width:425px){
+    .cont h1 {
+        padding:0;
+        font-weight: bolder;
+        width: 100%;
+    }
+  
+
+    .cont h4 {
+        font-size: 16px;
+        margin: 10px;
+        padding: 10px 20px;
+    }
+}
+
+
+/* contact css */
+
+.cont3 {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(212, 237, 229);
+    
+
+}
+
+.loginform{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 15px;
+
+}
+
+.loginform h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.form-group{
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-group label{
+    padding-bottom: 10px;
+}
+
+.form-group input{
+    margin-right:100px;
+padding: 6px 10px;
+border: 1px solid #006570;
+}
+.form-check{
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.form-group textarea{
+    margin-right:100px;
+    padding: 6px 10px;
+    border: 1px solid #006570;
+}
+
+
+form .button{
+border-radius: 30px;
+    padding: 5px 20px;
+    text-align: center;
+    background-color:#006570;
+    color: white;
+}
+
+form .button:hover{
+    background-color:#c0c0c0 ;
+
+}
+
+
+/* footer css */
+.footer {
+    background-color: #e7b75f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.store {
+    padding: 5px 10px;
+}
+
+.store img {
+    width: 130px;
+    height: 38px;
+    padding: 2px 7px;
+    border-radius: 20px;
+}
+
+.medias i {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.terms p {
+    font-size: 15px;
+    padding: 10px
+}
+
+
+
+.medias i:hover {
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(146, 238, 209);
+
+}
